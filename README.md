@@ -1,20 +1,19 @@
 <h2 align="center">
 SAGE: Strategy-Aware Optimization Modeling with Reasoning LLMs
 </h2>
----
 
 This repository contains the official code and supplementary materials for the paper:
 
 > **Strategy-Aware Optimization Modeling with Reasoning LLMs**
 
-We propose **SAGE**, a strategy-aware framework for automated optimization modeling that explicitly reasons over *modeling strategy* and optimizes both **formulation correctness** and **solver efficiency** using reinforcement learning with solver feedback.
+We propose **SAGE**, a strategy-aware framework for automated optimization modeling that explicitly reasons over *modeling strategy* and optimizes both formulation correctness and solver efficiency using reinforcement learning with solver feedback.
 
 ---
 
 ## 🧠 Framework Overview
 
 <div align="center">
-  <img src="assets/framework_overview.png" width="850"/>
+  <img src="assets/framework.png" width="850"/>
   <p><em>
   Figure 1: Overview of SAGE.
   </em></p>
@@ -85,7 +84,7 @@ As the sampling budget increases, SAGE continues to:
 <div align="center">
   <img src="assets/efficiency.png" width="800"/>
   <p><em>
-  Figure 3: Solver efficiency under increasing problem scale (ComplexOR). SAGE produces formulations with lower solve time and fewer solver iterations, with larger gains at larger scales.
+  Figure 3: Solver efficiency under increasing problem scale (ComplexOR).
   </em></p>
 </div>
 
