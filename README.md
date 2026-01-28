@@ -13,7 +13,7 @@ We propose **SAGE**, a strategy-aware framework for automated optimization model
 ## 🧠 Framework Overview
 
 <div align="center">
-  <img src="assets/framework.pdf" width="850"/>
+  <img src="assets/framework.png" width="850"/>
   <p><em>
   Figure 1: Overview of SAGE.
   </em></p>
@@ -67,7 +67,7 @@ Best results are shown in **bold**, and second-best results are <ins>underlined<
 ## 📈 Pass@K Accuracy & Modeling Diversity
 
 <div align="center">
-  <img src="assets/passk.pdf" width="800"/>
+  <img src="assets/passk.png" width="800"/>
   <p><em>
   Figure 2: Pass@K accuracy and modeling diversity as K increases on ComplexOR, IndustryOR, and OptMATH.
   </em></p>
@@ -82,7 +82,7 @@ As the sampling budget increases, SAGE continues to:
 ## ⚙️ Solver Efficiency Analysis
 
 <div align="center">
-  <img src="assets/efficiency.pdf" width="800"/>
+  <img src="assets/efficiency.png" width="800"/>
   <p><em>
   Figure 3: Solver efficiency under increasing problem scale (ComplexOR).
   </em></p>
