@@ -10,14 +10,14 @@ MODEL_NAME=""
 
 
 declare -A TEST_FILES=(
-    ["NLP4LP"]="$project_path/Eval/Testset_new/NLP4LP.jsonl"
-    ["NL4Opt"]="$project_path/Eval/Testset_new/NL4Opt.jsonl"
-    ["MamoEasy"]="$project_path/Eval/Testset_new/MamoEasy.jsonl"
-    ["MamoComplex"]="$project_path/Eval/Testset_new/MamoComplex.jsonl"
-    ["ComplexOR"]="$project_path/Eval/Testset_new/ComplexOR.jsonl"
-    ["IndustryOR"]="$project_path/Eval/Testset_new/IndustryOR.jsonl"
-    ["OptiBench"]="$project_path/Eval/Testset_new/OptiBench.jsonl"
-    ["OptMATH"]="$project_path/Eval/Testset_new/OptMATH.jsonl"
+    ["NLP4LP"]="$project_path/eval/benchmark/NLP4LP.jsonl"
+    ["NL4Opt"]="$project_path/eval/benchmark/NL4Opt.jsonl"
+    ["MamoEasy"]="$project_path/eval/benchmark/MamoEasy.jsonl"
+    ["MamoComplex"]="$project_path/eval/benchmark/MamoComplex.jsonl"
+    ["ComplexOR"]="$project_path/eval/benchmark/ComplexOR.jsonl"
+    ["IndustryOR"]="$project_path/eval/benchmark/IndustryOR.jsonl"
+    ["OptiBench"]="$project_path/eval/benchmark/OptiBench.jsonl"
+    ["OptMATH"]="$project_path/eval/benchmark/OptMATH.jsonl"
 )
 
 
