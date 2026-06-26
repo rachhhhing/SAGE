@@ -2,9 +2,14 @@
 SAGE: Strategy-Aware Optimization Modeling with Reasoning LLMs
 </h2>
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.02545"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?logo=arxiv&logoColor=white" alt="Paper"></a>
+  <a href="https://huggingface.co/datasets/Rachhhhing/SAGE-SFT-100K"><img src="https://img.shields.io/badge/Data-%F0%9F%A4%97%20Hugging%20Face-FFD21E" alt="Hugging Face Dataset"></a>
+</p>
+
 This repository contains the official code and supplementary materials for the paper:
 
-> **Strategy-Aware Optimization Modeling with Reasoning LLMs**
+> **Strategy-Aware Optimization Modeling with Reasoning LLMs (ICML, 2026)**
 
 We propose **SAGE**, a strategy-aware framework for automated optimization modeling that explicitly reasons over *modeling strategy* and optimizes both formulation correctness and solver efficiency using reinforcement learning with solver feedback.
 
